@@ -170,6 +170,8 @@ function loopGame() {
             }
             else { // se bola saiu na direita 
                 pontosJogador++;
+                const som_jogada=new Audio('Uhul_ZéRoberto.mp3');
+		        som_jogada.play();
             }
 
             bolaPosX = canvas.width / 2; // coloca bola no centro da tela
